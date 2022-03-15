@@ -783,7 +783,7 @@ label {
 	border-top-right-radius: 10px;
 }
 .fare-rate-tab-content {
-	background: #0c0417;
+	background: #ffffff;
 	padding: 60px 70px;
 	padding-bottom: 80px;
 	overflow: hidden;
@@ -844,12 +844,15 @@ label {
 	font-size: 12px;
 	color: #636262;
 }
+.shipping-address-box{
+	margin-right: 40px;
+}
 .shipping-address-box input {
 	display: block;
 	width: 700px;
 }
 .shipping-country-box {
-	margin-right: 10px;
+	margin-right: 40px;
 }
 .shipping-step-count::before {
 	content: "";
@@ -3757,7 +3760,7 @@ label {
 	opacity: .84;
 }
 .tracking-list {
-	background-image: url(../img/bg/bg-tracking.jpg);
+	background-image: url(../img/bg/tracking_bg.jpg);
 	background-position: center;
 	background-size: cover;
 	padding: 25px;
@@ -4736,7 +4739,7 @@ blockquote.classic-blockquote-post::after {
   animation: spinner 1s infinite linear;
   border-radius: 50%;
   border: 3px solid rgba(0, 0, 0, 0.2);
-  border-top-color: #FF5B5B;
+  border-top-color: #1397E3;
   height: 150px;
   margin: 0 auto 3.5em auto;
   width: 150px;
@@ -4980,3 +4983,21 @@ blockquote.classic-blockquote-post::after {
 .int-services-content ul li{
 	line-height: 40px;
 }
+
+.currency{
+	display: block;
+	width: 200px;
+	padding: 14px 20px;
+	border: none;
+	box-shadow: 0px 0px 43px 0px rgba(40, 11, 72, 0.11);
+}
+.update-btn{
+	margin-top: 30px;
+}
+ .table-rate th, td{
+	 text-align: center;
+ }
+
+ .tracking-list .content {
+	 text-align: left;
+ }

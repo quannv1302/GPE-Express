@@ -344,12 +344,13 @@ label {
 	background: #ffffff;
 }
 .header-country .nice-select {
+	margin-left: 20px;
 	border-radius: 0px;
 	font-size: 14px;
 	font-weight: 500;
 	padding-left: 25px;
 	padding-right: 23px;
-	color: #ffffff;
+	color: #1397E3;
 }
 .header-country .nice-select::after {
 	border-bottom: 2px solid #ffffff;
@@ -449,10 +450,22 @@ label {
 	color: #1397E3;
 }
 .header-search {
-	margin-left: 40px;
+	margin-left: 20px;
 }
 .header-btn {
-	margin-left: 30px;
+	margin-left: 20px;
+}
+.header-btn:last-child{
+	margin-left: 0;
+}
+.header-btn:last-child .btn{
+	background-color: #ffffff;
+	color: #1397E3;
+	border: 1px solid #1397E3;
+	border-radius: 4px;
+}
+.header-btn:last-child .btn:hover{
+	color: #ffffff;
 }
 .header-btn .btn {
 	font-size: 15px;
@@ -1122,11 +1135,10 @@ label {
 .modal-backdrop {
 	z-index: 1;
 }
-
 /* 5. Breadcrumb  */
 .breadcrumb-bg {
 	background-image: url(../img/bg/bg-about.jpg);
-	min-height: 726px;
+	min-height: 640px;
 	background-position: center;
 	background-size: cover;
 	position: relative;
@@ -1246,9 +1258,9 @@ label {
 	top: auto;
 	bottom: 15px;
 }
-.breadcrumb-content {
+/* .breadcrumb-content {
 	padding-top: 220px;
-}
+} */
 
 
 /* 6. Slider */
@@ -1256,7 +1268,8 @@ label {
 	/* background-image: url(../img/slider/slider_img02.jpg); */
 	background-image: url(../img/slider/bg2.jpg);
 	position: relative;
-	min-height: 749px;
+	/* min-height: 749px; */
+	height: 600px;
 	background-position: center;
 	background-size: cover;
 	z-index: 2;
@@ -2178,8 +2191,8 @@ label {
 }
 .section-title p {
 	margin-bottom: 0;
-	margin-top: 15px;
-	padding: 0 55px;
+	margin-top: 10px;
+	/* padding: 0 55px; */
 	line-height: 28px;
 }
 .single-services {
